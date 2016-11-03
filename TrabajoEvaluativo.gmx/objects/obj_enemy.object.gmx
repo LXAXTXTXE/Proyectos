@@ -93,7 +93,7 @@ if (place_meeting(x,y,obj_player))
         instance_destroy();
     }
 }
-var die = floor(random(10)) + 1;
+var die = floor(random(5)) + 1;
 if(die ==1){
    instance_create( x, y +45, obj_bE);}
 </string>
